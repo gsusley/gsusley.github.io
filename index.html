@@ -1,0 +1,1202 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>吃瓜51全网第一_娱乐吃瓜爆料合集_明星八卦与热点追踪</title>
+<meta name="description" content="吃瓜51全网第一汇集全网娱乐爆料、明星八卦、影视综艺动态与热点事件追踪，提供爆料档案、热榜更新、深度解析与网友评论，适合关注娱乐圈动态的吃瓜群众每日浏览。">
+<meta name="keywords" content="娱乐爆料,明星八卦,热点追踪,影视综艺动态,吃瓜档案">
+<style>
+:root{
+  --bg:#0e0d13;
+  --bg-soft:#15141c;
+  --panel:#1b1a24;
+  --panel-2:#22212e;
+  --line:#2e2c3b;
+  --line-soft:#262433;
+  --text:#eceaf3;
+  --text-2:#b3afc4;
+  --text-3:#847f99;
+  --main:#ff5c8a;
+  --main-2:#ff8aa8;
+  --accent:#ffc857;
+  --accent-2:#57d8ff;
+  --green:#4fd18b;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 8px 28px rgba(0,0,0,.38);
+  --ann-h:38px;
+  --head-h:64px;
+  --stick:calc(var(--ann-h) + var(--head-h));
+  --wrap:1360px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Source Han Sans SC",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--stick) + 14px)}
+body{
+  margin:0;background:
+    radial-gradient(1100px 520px at 82% -8%,rgba(255,92,138,.14),transparent 62%),
+    radial-gradient(900px 460px at 6% 4%,rgba(87,216,255,.08),transparent 60%),
+    var(--bg);
+  color:var(--text);font-family:var(--font);font-size:15px;line-height:1.72;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:800;letter-spacing:.2px}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+img{display:block;max-width:100%}
+button{font-family:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 22px}
+
+/* ---------- 吸顶公告条 ---------- */
+.annbar{
+  position:sticky;top:0;z-index:60;height:var(--ann-h);
+  background:linear-gradient(90deg,#ff3d72,#ff7a5c 48%,#ffc857);
+  color:#231018;font-size:13px;font-weight:700;
+  display:flex;align-items:center;overflow:hidden;
+}
+.annbar .wrap{display:flex;align-items:center;gap:14px;overflow:hidden}
+.ann-tag{
+  flex:0 0 auto;background:#231018;color:#ffc857;font-size:11px;font-weight:800;
+  padding:2px 9px;border-radius:99px;letter-spacing:1px;
+}
+.ann-move{display:flex;gap:34px;white-space:nowrap;animation:annscroll 26s linear infinite}
+.annbar:hover .ann-move{animation-play-state:paused}
+@keyframes annscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.ann-move span{opacity:.95}
+.ann-move b{font-weight:900}
+
+/* ---------- 吸顶页头 ---------- */
+.header{
+  position:sticky;top:var(--ann-h);z-index:55;height:var(--head-h);
+  background:rgba(14,13,19,.9);backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.header .wrap{height:100%;display:flex;align-items:center;gap:26px}
+.brand{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.logo-mark{width:38px;height:38px;flex:0 0 auto}
+.brand-txt{display:flex;flex-direction:column;line-height:1.1}
+.brand-name{font-size:17px;font-weight:900;letter-spacing:.4px}
+.brand-sub{font-size:10px;color:var(--text-3);letter-spacing:2px;text-transform:uppercase}
+.nav{display:flex;gap:4px;flex:1 1 auto;overflow:hidden}
+.nav a{
+  font-size:13.5px;color:var(--text-2);padding:7px 11px;border-radius:8px;
+  white-space:nowrap;transition:.16s;
+}
+.nav a:hover{color:var(--text);background:var(--panel-2)}
+.head-act{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.search-box{position:relative;display:flex;align-items:center}
+.search-box input{
+  width:186px;height:34px;border-radius:99px;border:1px solid var(--line);
+  background:var(--panel);color:var(--text);padding:0 34px 0 14px;font-size:13px;
+}
+.search-box input::placeholder{color:var(--text-3)}
+.search-box input:focus{outline:none;border-color:var(--main);background:var(--panel-2)}
+.search-btn{
+  position:absolute;right:4px;width:26px;height:26px;border:0;border-radius:50%;
+  background:transparent;color:var(--text-3);display:grid;place-items:center;
+}
+.search-btn:hover{color:var(--main-2)}
+.btn-live{
+  height:34px;padding:0 15px;border-radius:99px;border:0;
+  background:linear-gradient(135deg,#ff3d72,#ff8a5c);color:#fff;font-size:13px;font-weight:800;
+  display:inline-flex;align-items:center;gap:6px;box-shadow:0 4px 16px rgba(255,61,114,.32);
+}
+.dot-live{width:7px;height:7px;border-radius:50%;background:#fff;animation:blink 1.4s infinite}
+@keyframes blink{50%{opacity:.25}}
+
+/* ---------- 首屏 ---------- */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(680px 320px at 78% 18%,rgba(255,92,138,.2),transparent 66%),
+    radial-gradient(520px 300px at 20% 88%,rgba(87,216,255,.1),transparent 62%);
+  pointer-events:none;
+}
+.hero .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:44px;align-items:center;padding-top:52px;padding-bottom:52px}
+.kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;
+  color:var(--accent);letter-spacing:1.4px;border:1px solid rgba(255,200,87,.35);
+  background:rgba(255,200,87,.08);padding:5px 12px;border-radius:99px;margin-bottom:18px;
+}
+.hero h1{font-size:clamp(30px,3.5vw,46px);letter-spacing:1px;margin-bottom:16px}
+.hero h1 em{font-style:normal;color:var(--main-2)}
+.hero-lead{color:var(--text-2);font-size:15.5px;max-width:560px;margin-bottom:24px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:26px}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;height:42px;padding:0 20px;border-radius:10px;
+  font-size:14px;font-weight:800;border:1px solid transparent;transition:.18s;
+}
+.btn-primary{background:linear-gradient(135deg,#ff3d72,#ff8a5c);color:#fff;box-shadow:0 6px 22px rgba(255,61,114,.3)}
+.btn-primary:hover{transform:translateY(-1px);box-shadow:0 10px 26px rgba(255,61,114,.4)}
+.btn-ghost{border-color:var(--line);color:var(--text-2);background:var(--panel)}
+.btn-ghost:hover{border-color:var(--main);color:var(--text)}
+.hero-stats{display:flex;gap:30px;flex-wrap:wrap}
+.stat b{display:block;font-size:22px;font-weight:900;color:var(--text)}
+.stat span{font-size:12px;color:var(--text-3);letter-spacing:.6px}
+.hero-visual{position:relative}
+.hero-frame{
+  position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--line);
+  background:var(--panel);box-shadow:var(--shadow);
+}
+.hero-frame img{width:100%;height:352px;object-fit:cover;opacity:.86}
+.hero-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(14,13,19,.05) 30%,rgba(14,13,19,.92));
+}
+.hero-topic{
+  position:absolute;left:0;right:0;bottom:0;padding:20px;
+}
+.hero-topic .tp-tag{
+  display:inline-block;font-size:11px;font-weight:800;color:#231018;background:var(--accent);
+  padding:2px 9px;border-radius:99px;margin-bottom:9px;
+}
+.hero-topic h3{font-size:19px;margin-bottom:6px}
+.hero-topic p{font-size:13px;color:var(--text-2)}
+.hero-badge{
+  position:absolute;top:-14px;right:-10px;background:var(--panel-2);border:1px solid var(--line);
+  border-radius:12px;padding:10px 14px;box-shadow:var(--shadow);text-align:center;
+  animation:floaty 5s ease-in-out infinite;
+}
+.hero-badge b{display:block;font-size:18px;color:var(--main-2);font-weight:900}
+.hero-badge span{font-size:11px;color:var(--text-3)}
+@keyframes floaty{50%{transform:translateY(-7px)}}
+
+/* ---------- 三栏布局 ---------- */
+.layout{
+  display:grid;
+  grid-template-columns:176px minmax(0,1fr) 268px;
+  gap:26px;padding:34px 0 20px;align-items:start;
+}
+.chan{
+  position:sticky;top:calc(var(--stick) + 16px);
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px 12px;
+}
+.chan h2{font-size:12px;color:var(--text-3);letter-spacing:2px;padding:0 8px 10px;font-weight:800}
+.chan ul{display:flex;flex-direction:column;gap:2px}
+.chan a{
+  display:flex;align-items:center;justify-content:space-between;gap:6px;
+  padding:8px 9px;border-radius:8px;font-size:13.5px;color:var(--text-2);transition:.15s;
+}
+.chan a:hover{background:var(--panel-2);color:var(--text)}
+.chan a .cnt{font-size:11px;color:var(--text-3);font-variant-numeric:tabular-nums}
+.chan a:hover .cnt{color:var(--main-2)}
+.chan-foot{margin-top:14px;padding:12px 9px 4px;border-top:1px dashed var(--line)}
+.chan-foot p{font-size:11.5px;color:var(--text-3);line-height:1.65}
+
+/* ---------- 主栏通用 ---------- */
+.main{display:flex;flex-direction:column;gap:30px;min-width:0}
+.sec{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.sec-head h2{font-size:20px;display:flex;align-items:center;gap:10px}
+.sec-head h2::before{
+  content:"";width:4px;height:19px;border-radius:2px;
+  background:linear-gradient(180deg,var(--main),var(--accent));
+}
+.sec-head .sub{font-size:12.5px;color:var(--text-3)}
+.sec-link{font-size:12.5px;color:var(--main-2);font-weight:700}
+.sec-link:hover{text-decoration:underline}
+
+/* 概览 */
+.overview p{color:var(--text-2);font-size:14.5px;margin-bottom:12px}
+.overview p:last-child{margin-bottom:0}
+.overview strong{color:var(--accent);font-weight:800}
+
+/* 卡片网格 */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:16px}
+.card{
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:var(--radius-sm);
+  overflow:hidden;display:flex;flex-direction:column;transition:.2s;
+}
+.card:hover{border-color:rgba(255,92,138,.5);transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.35)}
+.card-cover{position:relative}
+.card-cover img{width:100%;height:132px;object-fit:cover}
+.card-type{
+  position:absolute;top:9px;left:9px;font-size:11px;font-weight:800;color:#231018;
+  background:var(--accent);padding:2px 8px;border-radius:99px;
+}
+.card-body{padding:12px 13px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card-body h3{font-size:14.5px;line-height:1.42}
+.card-desc{font-size:12.5px;color:var(--text-2);line-height:1.62;flex:1}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tag{
+  font-size:11px;color:var(--text-2);background:rgba(255,255,255,.05);
+  border:1px solid var(--line-soft);padding:1px 7px;border-radius:99px;
+}
+.card-meta{display:flex;align-items:center;justify-content:space-between;font-size:11.5px;color:var(--text-3);border-top:1px dashed var(--line-soft);padding-top:8px}
+.hot{color:var(--main-2);font-weight:800}
+
+/* 动态列表 */
+.feed{display:flex;flex-direction:column}
+.feed li{
+  display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:12px;align-items:center;
+  padding:11px 2px;border-bottom:1px dashed var(--line-soft);
+}
+.feed li:last-child{border-bottom:0}
+.feed .t{font-size:11.5px;color:var(--text-3);font-variant-numeric:tabular-nums}
+.feed .name{font-size:14px;font-weight:700;margin-bottom:2px}
+.feed .name a:hover{color:var(--main-2)}
+.feed .sum{font-size:12.5px;color:var(--text-2)}
+.feed .pill{
+  font-size:11px;padding:2px 9px;border-radius:99px;font-weight:800;white-space:nowrap;
+}
+.pill-new{background:rgba(79,209,139,.14);color:var(--green);border:1px solid rgba(79,209,139,.3)}
+.pill-live{background:rgba(255,61,114,.14);color:var(--main-2);border:1px solid rgba(255,61,114,.32)}
+.pill-hot{background:rgba(255,200,87,.13);color:var(--accent);border:1px solid rgba(255,200,87,.3)}
+.pill-up{background:rgba(87,216,255,.12);color:var(--accent-2);border:1px solid rgba(87,216,255,.28)}
+
+/* 分类 */
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(146px,1fr));gap:10px}
+.cat{
+  display:flex;flex-direction:column;gap:3px;padding:12px 14px;border-radius:10px;
+  background:var(--panel-2);border:1px solid var(--line-soft);transition:.16s;
+}
+.cat:hover{border-color:var(--main);background:rgba(255,92,138,.07)}
+.cat b{font-size:14px}
+.cat span{font-size:11.5px;color:var(--text-3)}
+.cat.active{border-color:var(--main);background:rgba(255,92,138,.1)}
+.cat.active b{color:var(--main-2)}
+
+/* 筛选条 */
+.filterbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.fbtn{
+  font-size:12.5px;padding:5px 14px;border-radius:99px;border:1px solid var(--line);
+  background:var(--panel-2);color:var(--text-2);font-weight:700;transition:.15s;
+}
+.fbtn:hover{border-color:var(--main);color:var(--text)}
+.fbtn.active{background:linear-gradient(135deg,#ff3d72,#ff8a5c);border-color:transparent;color:#fff}
+.filter-empty{
+  display:none;padding:24px;text-align:center;color:var(--text-3);font-size:13.5px;
+  border:1px dashed var(--line);border-radius:10px;
+}
+.filter-empty.show{display:block}
+
+/* 深度解析 */
+.deep h3{font-size:16px;margin:22px 0 10px;color:var(--text);display:flex;align-items:center;gap:8px}
+.deep h3:first-of-type{margin-top:4px}
+.deep h3 .num{
+  width:22px;height:22px;flex:0 0 auto;border-radius:6px;display:grid;place-items:center;
+  font-size:12px;background:rgba(255,92,138,.16);color:var(--main-2);font-weight:900;
+}
+.deep p{color:var(--text-2);font-size:14.5px;margin-bottom:11px}
+.deep ul{display:flex;flex-direction:column;gap:7px;margin:6px 0 14px}
+.deep ul li{
+  position:relative;padding-left:18px;font-size:14px;color:var(--text-2);
+}
+.deep ul li::before{
+  content:"";position:absolute;left:4px;top:9px;width:6px;height:6px;border-radius:2px;
+  background:var(--main);transform:rotate(45deg);
+}
+.deep ul li b{color:var(--text)}
+.quote{
+  border-left:3px solid var(--accent);background:rgba(255,200,87,.07);
+  padding:12px 16px;border-radius:0 10px 10px 0;font-size:13.5px;color:var(--text-2);margin:14px 0;
+}
+
+/* 步骤 */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;counter-reset:st}
+.step{
+  position:relative;background:var(--panel-2);border:1px solid var(--line-soft);
+  border-radius:10px;padding:16px 15px 15px 15px;counter-increment:st;
+}
+.step::before{
+  content:"0" counter(st);position:absolute;top:12px;right:14px;
+  font-size:22px;font-weight:900;color:rgba(255,92,138,.22);font-variant-numeric:tabular-nums;
+}
+.step b{display:block;font-size:14px;margin-bottom:6px}
+.step p{font-size:12.5px;color:var(--text-2);line-height:1.62}
+
+/* FAQ */
+.faq details{
+  border:1px solid var(--line-soft);border-radius:10px;background:var(--panel-2);
+  margin-bottom:9px;overflow:hidden;
+}
+.faq details[open]{border-color:rgba(255,92,138,.45)}
+.faq summary{
+  list-style:none;cursor:pointer;padding:13px 40px 13px 16px;position:relative;
+  font-size:14px;font-weight:700;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:15px;top:50%;transform:translateY(-50%);
+  font-size:19px;color:var(--main-2);font-weight:400;transition:.2s;
+}
+.faq details[open] summary::after{content:"−"}
+.faq .ans{padding:0 16px 14px;font-size:13.5px;color:var(--text-2);line-height:1.72}
+
+/* 评论 */
+.cmt-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:12px}
+.cmt{
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:10px;padding:12px 14px;
+}
+.cmt-top{display:flex;align-items:center;gap:9px;margin-bottom:7px}
+.avatar{
+  width:26px;height:26px;border-radius:50%;display:grid;place-items:center;
+  font-size:11px;font-weight:900;color:#231018;flex:0 0 auto;
+}
+.cmt-user{font-size:12.5px;font-weight:800;color:var(--text)}
+.cmt-time{font-size:11px;color:var(--text-3);margin-left:auto}
+.cmt-txt{font-size:12.8px;color:var(--text-2);line-height:1.66}
+.cmt-txt b{color:var(--accent);font-weight:700}
+
+/* 资讯 */
+.news{display:flex;flex-direction:column;gap:12px}
+.news-item{
+  display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;align-items:center;
+  background:var(--panel-2);border:1px solid var(--line-soft);border-radius:10px;padding:10px;
+}
+.news-item img{width:96px;height:66px;object-fit:cover;border-radius:7px}
+.news-item h3{font-size:14px;margin-bottom:4px}
+.news-item h3 a:hover{color:var(--main-2)}
+.news-item .nt{font-size:11.5px;color:var(--text-3);margin-bottom:3px;font-variant-numeric:tabular-nums}
+.news-item p{font-size:12.5px;color:var(--text-2);line-height:1.6}
+
+/* 推荐标签 */
+.reco{display:flex;flex-wrap:wrap;gap:9px}
+.reco a{
+  font-size:13px;padding:7px 14px;border-radius:99px;border:1px solid var(--line);
+  background:var(--panel-2);color:var(--text-2);transition:.16s;
+}
+.reco a:hover{border-color:var(--main);color:var(--main-2);background:rgba(255,92,138,.08)}
+
+/* 榜单 */
+.rank{display:flex;flex-direction:column;gap:2px;counter-reset:rk}
+.rank li{
+  display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:11px;align-items:center;
+  padding:9px 6px;border-radius:8px;counter-increment:rk;
+}
+.rank li:hover{background:var(--panel-2)}
+.rank li::before{
+  content:counter(rk);font-size:13px;font-weight:900;color:var(--text-3);
+  text-align:center;font-variant-numeric:tabular-nums;
+}
+.rank li:nth-child(-n+3)::before{color:var(--accent)}
+.rank .rn{font-size:13.5px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rank .rs{font-size:11.5px;color:var(--text-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rank .rv{font-size:12px;color:var(--main-2);font-weight:800;font-variant-numeric:tabular-nums}
+
+/* 时间线 */
+.timeline{position:relative;padding-left:20px}
+.timeline::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--main),transparent)}
+.tl-item{position:relative;padding-bottom:16px}
+.tl-item:last-child{padding-bottom:0}
+.tl-item::before{
+  content:"";position:absolute;left:-19px;top:6px;width:8px;height:8px;border-radius:50%;
+  background:var(--panel);border:2px solid var(--main);
+}
+.tl-time{font-size:11.5px;color:var(--main-2);font-weight:800;letter-spacing:.5px}
+.tl-item b{display:block;font-size:13.5px;margin:2px 0 2px}
+.tl-item p{font-size:12.5px;color:var(--text-2)}
+
+/* ---------- 右栏 ---------- */
+.side{display:flex;flex-direction:column;gap:20px;position:sticky;top:calc(var(--stick) + 16px)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.panel h2{font-size:13px;letter-spacing:1.4px;color:var(--text-2);margin-bottom:12px;display:flex;align-items:center;gap:7px}
+.panel h2::before{content:"";width:3px;height:13px;border-radius:2px;background:var(--main)}
+.upd{display:flex;flex-direction:column;gap:10px}
+.upd li{display:flex;gap:9px;align-items:flex-start}
+.upd .u-dot{width:6px;height:6px;border-radius:50%;background:var(--green);margin-top:8px;flex:0 0 auto}
+.upd .u-txt{font-size:12.5px;color:var(--text-2);line-height:1.55}
+.upd .u-txt b{display:block;color:var(--text);font-size:13px;font-weight:700}
+.upd .u-txt span{font-size:11px;color:var(--text-3)}
+.side-tags{display:flex;flex-wrap:wrap;gap:6px}
+.side-tags a{font-size:11.5px;padding:3px 9px;border-radius:99px;background:var(--panel-2);border:1px solid var(--line-soft);color:var(--text-2)}
+.side-tags a:hover{border-color:var(--main);color:var(--main-2)}
+.side-note{font-size:11.5px;color:var(--text-3);line-height:1.7}
+
+/* ---------- 页尾 ---------- */
+.footer{border-top:1px solid var(--line);background:var(--bg-soft);margin-top:20px;padding:38px 0 26px}
+.foot-grid{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:30px;margin-bottom:28px}
+.foot-brand p{font-size:12.5px;color:var(--text-3);margin-top:12px;line-height:1.75;max-width:300px}
+.foot-col h3{font-size:12.5px;color:var(--text-2);letter-spacing:1.2px;margin-bottom:11px}
+.foot-col ul{display:flex;flex-direction:column;gap:7px}
+.foot-col a{font-size:12.5px;color:var(--text-3)}
+.foot-col a:hover{color:var(--main-2)}
+.foot-bottom{
+  border-top:1px solid var(--line);padding-top:16px;display:flex;justify-content:space-between;
+  gap:16px;flex-wrap:wrap;font-size:11.5px;color:var(--text-3);
+}
+.foot-bottom p{line-height:1.7}
+
+/* ---------- 响应式 ---------- */
+@media(max-width:1180px){
+  .layout{grid-template-columns:160px minmax(0,1fr);}
+  .side{position:static;grid-column:1 / -1;display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));}
+}
+@media(max-width:1024px){
+  .hero .wrap{grid-template-columns:1fr;gap:30px;padding-top:38px;padding-bottom:38px}
+  .hero-frame img{height:270px}
+  .nav{display:none}
+  .foot-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:860px){
+  .layout{grid-template-columns:1fr;gap:22px}
+  .chan{position:static;padding:12px}
+  .chan h2{padding-bottom:8px}
+  .chan ul{flex-direction:row;flex-wrap:wrap;gap:6px}
+  .chan a{flex:0 0 auto;background:var(--panel-2);border:1px solid var(--line-soft)}
+  .chan a .cnt{display:none}
+  .chan-foot{display:none}
+}
+@media(max-width:740px){
+  :root{--ann-h:34px;--head-h:58px}
+  .wrap{padding:0 15px}
+  .header .wrap{gap:12px}
+  .brand-sub{display:none}
+  .search-box input{width:128px}
+  .btn-live{display:none}
+  .hero h1{font-size:29px}
+  .hero-stats{gap:22px}
+  .sec{padding:18px 15px}
+  .card-grid{grid-template-columns:1fr}
+  .cmt-list{grid-template-columns:1fr}
+  .cat-grid{grid-template-columns:repeat(2,1fr)}
+  .feed li{grid-template-columns:minmax(0,1fr) auto;gap:8px}
+  .feed .t{grid-column:1 / -1;font-size:11px}
+  .news-item{grid-template-columns:74px minmax(0,1fr)}
+  .news-item img{width:74px;height:54px}
+  .foot-grid{grid-template-columns:1fr;gap:22px}
+  .side{grid-template-columns:1fr}
+  .hero-badge{display:none}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="annbar" role="region" aria-label="站内更新公告">
+  <div class="wrap">
+    <span class="ann-tag">今日更新</span>
+    <div class="ann-move" aria-hidden="false">
+      <span><b>11 月 25 日</b> 新增爆料档案 14 条 · 《雾港来信》番外篇实锤物料解封</span>
+      <span><b>热榜</b> 「双生舞台」退赛风波登顶，24 小时讨论量 38.6 万</span>
+      <span><b>今晚 20:00</b> 《长夜将明》主创直播回应剪辑争议</span>
+      <span><b>11 月 25 日</b> 新增爆料档案 14 条 · 《雾港来信》番外篇实锤物料解封</span>
+      <span><b>热榜</b> 「双生舞台」退赛风波登顶，24 小时讨论量 38.6 万</span>
+      <span><b>今晚 20:00</b> 《长夜将明》主创直播回应剪辑争议</span>
+    </div>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="header">
+  <div class="wrap">
+    <a class="brand" href="/#top" aria-label="吃瓜51全网第一 首页">
+      <svg class="logo-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="lg" x1="0" y1="0" x2="40" y2="40">
+            <stop stop-color="#ff3d72"/><stop offset="1" stop-color="#ffc857"/>
+          </linearGradient>
+        </defs>
+        <path d="M20 3c9.4 0 17 7.2 17 16.2C37 29.6 29.4 37 20 37S3 29.6 3 19.2C3 10.2 10.6 3 20 3Z" stroke="url(#lg)" stroke-width="2.4"/>
+        <path d="M13 15.5c1.6-1.4 3.4-1.4 5 0M22 15.5c1.6-1.4 3.4-1.4 5 0" stroke="#ffc857" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M13.5 24.5c2 2.2 4.4 3.3 6.5 3.3s4.5-1.1 6.5-3.3" stroke="#ff5c8a" stroke-width="2.2" stroke-linecap="round"/>
+        <circle cx="20" cy="20" r="1.6" fill="#57d8ff"/>
+      </svg>
+      <span class="brand-txt">
+        <span class="brand-name">吃瓜51全网第一</span>
+        <span class="brand-sub">GUA · 51</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="主导航">
+      <a href="/#feed">最新动态</a>
+      <a href="/#cards">精选爆料</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#rank">热榜</a>
+      <a href="/#guide">吃瓜指南</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#comments">瓜友评论</a>
+    </nav>
+    <div class="head-act">
+      <div class="search-box">
+        <input id="siteSearch" type="search" placeholder="搜条目 / 明星 / 事件" aria-label="站内搜索条目">
+        <button class="search-btn" id="searchBtn" type="button" aria-label="执行搜索">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="6.4" stroke="currentColor" stroke-width="2"/><path d="m16 16 4.4 4.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <a class="btn-live" href="/#feed"><span class="dot-live"></span>实时爆料</a>
+    </div>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <span class="kicker">全网爆料聚合 · 每日 09:00 更新</span>
+      <h1>吃瓜51全网第一</h1>
+      <p class="hero-lead">从影视综艺到舞台竞演，从剧组物料到社交平台风向，这里把散落在各个角落的娱乐爆料整理成可追溯的档案条目：谁在什么时间说了什么、哪条消息有实锤、哪条只是传闻。每天更新，按事件归档。</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="/#cards">查看今日精选爆料</a>
+        <a class="btn btn-ghost" href="/#rank">打开实时热榜</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><b>14,286</b><span>已归档爆料条目</span></div>
+        <div class="stat"><b>38.6万</b><span>今日热榜讨论量</span></div>
+        <div class="stat"><b>92%</b><span>实锤条目核实率</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-frame">
+        <img src="https://picsum.photos/seed/guagua-hero51/800/400" width="800" height="400" alt="娱乐爆料档案室夜景概念图" fetchpriority="high">
+        <div class="hero-overlay"></div>
+        <div class="hero-topic">
+          <span class="tp-tag">正在发酵</span>
+          <h3>「双生舞台」退赛风波</h3>
+          <p>11 月 24 日晚节目组发布第三版说明，与选手方声明存在两处关键时间点冲突。</p>
+        </div>
+      </div>
+      <div class="hero-badge"><b>+14</b><span>今日新增档案</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 三栏主体 -->
+<div class="wrap">
+  <div class="layout">
+
+    <!-- 左频道 -->
+    <aside class="chan" aria-label="频道索引">
+      <h2>频道索引</h2>
+      <ul>
+        <li><a href="/#cat">影视剧集<span class="cnt">3.2k</span></a></li>
+        <li><a href="/#cat">综艺竞演<span class="cnt">1.8k</span></a></li>
+        <li><a href="/#cat">舞台选秀<span class="cnt">1.4k</span></a></li>
+        <li><a href="/#cat">明星动态<span class="cnt">4.1k</span></a></li>
+        <li><a href="/#cat">剧组物料<span class="cnt">926</span></a></li>
+        <li><a href="/#cat">品牌代言<span class="cnt">712</span></a></li>
+        <li><a href="/#cat">音乐现场<span class="cnt">648</span></a></li>
+        <li><a href="/#cat">红毯造型<span class="cnt">583</span></a></li>
+        <li><a href="/#cat">海外娱乐<span class="cnt">1.1k</span></a></li>
+        <li><a href="/#cat">辟谣专区<span class="cnt">437</span></a></li>
+      </ul>
+      <div class="chan-foot">
+        <p>共 12,406 条在档条目，10 个频道按事件类型归档，支持站内搜索定位。</p>
+      </div>
+    </aside>
+
+    <!-- 主内容 -->
+    <main class="main">
+
+      <!-- 1 领域概览 -->
+      <section class="sec overview" id="overview">
+        <div class="sec-head">
+          <h2>娱乐爆料领域概览</h2>
+          <span class="sub">10 个频道 · 12,406 条在档</span>
+        </div>
+        <p>娱乐爆料并不是单一类型，它至少分成四条主线：<strong>作品线</strong>（剧集定档、番外上线、综艺赛制调整）、<strong>人物线</strong>（艺人行程、合约变动、社交平台发言）、<strong>现场线</strong>（舞台竞演结果、直播事故、红毯造型）、<strong>商业线</strong>（代言签约、品牌解约、联名下架）。四条线的信息密度完全不同：作品线更新稳定、可预期；人物线真假混杂，需要交叉验证；现场线时效性最强，往往两小时内就失去热度；商业线则很少单独引爆，通常依附在人物线上。</p>
+        <p>当前值得关注的几个方向：一是舞台竞演类节目的“退赛 / 补位”机制，2026 年下半年起多档节目改成中途公开投票，导致结果类爆料的可信度大幅提升；二是长剧“番外篇”成为新的物料战场，《雾港来信》《长夜将明》都在正片结束后靠番外维持三个月以上的讨论周期；三是品牌代言的“短约化”趋势，三个月一签的短约让解约类爆料变得更频繁，也更难判断。</p>
+        <p>吃瓜51全网第一 把这些内容拆成可检索的档案条目：每条包含时间、来源层级（官方 / 媒体 / 匿名爆料）、可核实要素与后续进展。判断一条爆料值不值得跟，看三件事——是否有官方口径、是否有多源交叉、是否有可验证的时间节点。</p>
+      </section>
+
+      <!-- 2 精选卡片 -->
+      <section class="sec" id="cards">
+        <div class="sec-head">
+          <h2>今日精选爆料档案</h2>
+          <a class="sec-link" href="/#feed">查看全部更新 →</a>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/guagua-wugang08/400/300" width="400" height="300" alt="雾港来信番外篇剧照" loading="lazy">
+              <span class="card-type">剧集</span>
+            </div>
+            <div class="card-body">
+              <h3>《雾港来信》番外篇定档 12 月 6 日</h3>
+              <p class="card-desc">三集番外聚焦配角“老周”的前史，官方 11 月 23 日发布 48 秒先导片，片尾出现正片未播出的码头场景。</p>
+              <div class="tags"><span class="tag">悬疑</span><span class="tag">番外</span><span class="tag">定档</span></div>
+              <div class="card-meta"><span>热度 96.2</span><span class="hot">已实锤</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/guagua-shuangsheng12/400/300" width="400" height="300" alt="双生舞台竞演现场灯光" loading="lazy">
+              <span class="card-type">综艺</span>
+            </div>
+            <div class="card-body">
+              <h3>「双生舞台」退赛风波第三版说明</h3>
+              <p class="card-desc">节目组 11 月 24 日 22:40 发布第三版说明，称选手因伤退赛；选手方 40 分钟后回应称“未收到书面通知”。</p>
+              <div class="tags"><span class="tag">竞演</span><span class="tag">退赛</span><span class="tag">争议</span></div>
+              <div class="card-meta"><span>热度 98.7</span><span class="hot">多方冲突</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/guagua-changye21/400/300" width="400" height="300" alt="长夜将明主创直播画面" loading="lazy">
+              <span class="card-type">剧集</span>
+            </div>
+            <div class="card-body">
+              <h3>《长夜将明》剪辑争议主创直播</h3>
+              <p class="card-desc">导演与剪辑指导今晚 20:00 开直播回应第 26 集“时间线错位”，平台已挂出直播预约，预约量破 12 万。</p>
+              <div class="tags"><span class="tag">都市</span><span class="tag">剪辑</span><span class="tag">直播</span></div>
+              <div class="card-meta"><span>热度 94.1</span><span class="hot">今晚开播</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/guagua-daiyan33/400/300" width="400" height="300" alt="品牌发布会现场舞台" loading="lazy">
+              <span class="card-type">商业</span>
+            </div>
+            <div class="card-body">
+              <h3>林知夏与「沐野」短约到期未续</h3>
+              <p class="card-desc">双方 2026 年 8 月签的三个月短约于 11 月 20 日到期，品牌方未发布续约海报，代言人页面已下线。</p>
+              <div class="tags"><span class="tag">代言</span><span class="tag">短约</span><span class="tag">到期</span></div>
+              <div class="card-meta"><span>热度 81.5</span><span class="hot">待确认</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/guagua-hongtan47/400/300" width="400" height="300" alt="年末红毯造型现场" loading="lazy">
+              <span class="card-type">现场</span>
+            </div>
+            <div class="card-body">
+              <h3>年末盛典红毯造型盘点（11 月 22 日）</h3>
+              <p class="card-desc">11 月 22 日星耀盛典共 41 组造型，高定占 17 组，其中 3 组为国内设计师首次亮相，讨论集中在配色。</p>
+              <div class="tags"><span class="tag">红毯</span><span class="tag">高定</span><span class="tag">造型</span></div>
+              <div class="card-meta"><span>热度 76.3</span><span class="hot">图文实录</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/guagua-yinyue59/400/300" width="400" height="300" alt="音乐节现场舞台灯光" loading="lazy">
+              <span class="card-type">音乐</span>
+            </div>
+            <div class="card-body">
+              <h3>「回声计划」巡演加场 3 城</h3>
+              <p class="card-desc">主办方 11 月 21 日宣布追加成都、长沙、青岛三场，开票时间定在 11 月 28 日 12:00，实名限购两张。</p>
+              <div class="tags"><span class="tag">巡演</span><span class="tag">加场</span><span class="tag">开票</span></div>
+              <div class="card-meta"><span>热度 72.8</span><span class="hot">官方公告</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/guagua-piyao64/400/300" width="400" height="300" alt="辟谣专区档案文件" loading="lazy">
+              <span class="card-type">辟谣</span>
+            </div>
+            <div class="card-body">
+              <h3>“某顶流隐婚”传闻核查结果</h3>
+              <p class="card-desc">11 月 19 日起流传的隐婚说法，经比对行程与公开活动记录，关键时间点存在两处不可能同时成立的冲突。</p>
+              <div class="tags"><span class="tag">辟谣</span><span class="tag">核查</span><span class="tag">行程比对</span></div>
+              <div class="card-meta"><span>热度 69.4</span><span class="hot">判定不实</span></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-cover">
+              <img src="https://picsum.photos/seed/guagua-haiwai78/400/300" width="400" height="300" alt="海外剧集海报风格画面" loading="lazy">
+              <span class="card-type">海外</span>
+            </div>
+            <div class="card-body">
+              <h3>韩剧《晚安，汉江》内地版权落定</h3>
+              <p class="card-desc">11 月 18 日版权方确认由某平台独播，预计 2027 年 1 月上线，配音与字幕版本同步制作中。</p>
+              <div class="tags"><span class="tag">韩剧</span><span class="tag">版权</span><span class="tag">独播</span></div>
+              <div class="card-meta"><span>热度 64.2</span><span class="hot">已确认</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 3 最新动态 -->
+      <section class="sec" id="feed">
+        <div class="sec-head">
+          <h2>最新爆料动态</h2>
+          <span class="sub">11 月 25 日 09:00 更新</span>
+        </div>
+        <ul class="feed">
+          <li>
+            <span class="t">今天 09:12</span>
+            <div><div class="name"><a href="/#cards">《雾港来信》番外篇</a></div><div class="sum">先导片 48 秒上线，片尾码头场景确认来自正片删减段落。</div></div>
+            <span class="pill pill-new">新上线</span>
+          </li>
+          <li>
+            <span class="t">今天 08:40</span>
+            <div><div class="name"><a href="/#cards">「双生舞台」退赛风波</a></div><div class="sum">选手方发布第二份声明，要求节目组公开投票原始记录。</div></div>
+            <span class="pill pill-hot">持续发酵</span>
+          </li>
+          <li>
+            <span class="t">今天 08:05</span>
+            <div><div class="name"><a href="/#rank">热榜第 1 位更换</a></div><div class="sum">「双生舞台」以 38.6 万讨论量超过《长夜将明》剪辑争议。</div></div>
+            <span class="pill pill-up">榜单变动</span>
+          </li>
+          <li>
+            <span class="t">昨天 22:40</span>
+            <div><div class="name"><a href="/#cards">《长夜将明》主创直播</a></div><div class="sum">直播预约开启，平台确认导演、剪辑指导、制片人三人出席。</div></div>
+            <span class="pill pill-live">今晚 20:00</span>
+          </li>
+          <li>
+            <span class="t">昨天 21:10</span>
+            <div><div class="name"><a href="/#cards">林知夏代言到期</a></div><div class="sum">品牌官网代言人页面下线，客服回应“合作正常结束”。</div></div>
+            <span class="pill pill-new">已核实</span>
+          </li>
+          <li>
+            <span class="t">昨天 18:32</span>
+            <div><div class="name"><a href="/#cat">《风起南陌》剧组</a></div><div class="sum">官方发布第二组定妆照，配角阵容新增两位实力派演员。</div></div>
+            <span class="pill pill-new">新物料</span>
+          </li>
+          <li>
+            <span class="t">11 月 23 日</span>
+            <div><div class="name"><a href="/#cards">「回声计划」巡演</a></div><div class="sum">三城加场公告发布，实名限购两张，开票 11 月 28 日。</div></div>
+            <span class="pill pill-up">官方公告</span>
+          </li>
+          <li>
+            <span class="t">11 月 22 日</span>
+            <div><div class="name"><a href="/#cards">星耀盛典红毯</a></div><div class="sum">41 组造型完整图文实录上线，含 17 组高定与 3 组国内设计师首秀。</div></div>
+            <span class="pill pill-new">图文实录</span>
+          </li>
+          <li>
+            <span class="t">11 月 21 日</span>
+            <div><div class="name"><a href="/#cards">《晚安，汉江》版权</a></div><div class="sum">独播平台确认，配音与字幕双版本同步制作，预计 2027 年 1 月上线。</div></div>
+            <span class="pill pill-new">已确认</span>
+          </li>
+          <li>
+            <span class="t">11 月 20 日</span>
+            <div><div class="name"><a href="/#cat">辟谣专区更新</a></div><div class="sum">“某顶流隐婚”传闻核查完成，行程比对存在两处时间冲突，判定不实。</div></div>
+            <span class="pill pill-up">核查完成</span>
+          </li>
+          <li>
+            <span class="t">11 月 19 日</span>
+            <div><div class="name"><a href="/#cat">《雾港来信》正片收官</a></div><div class="sum">大结局上线 24 小时播放量破 1.8 亿，弹幕峰值出现在第 38 分钟。</div></div>
+            <span class="pill pill-hot">数据更新</span>
+          </li>
+          <li>
+            <span class="t">11 月 18 日</span>
+            <div><div class="name"><a href="/#cat">音乐现场频道</a></div><div class="sum">新增 6 场音乐节实录，含现场收音与歌单完整列表。</div></div>
+            <span class="pill pill-new">新条目</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 4 分类入口 + 筛选 -->
+      <section class="sec" id="cat">
+        <div class="sec-head">
+          <h2>按类型找爆料</h2>
+          <span class="sub">点击分类筛选下方档案条目</span>
+        </div>
+        <div class="cat-grid" id="catGrid">
+          <a class="cat active" href="/#cat" data-filter="all"><b>全部条目</b><span>12,406 条在档</span></a>
+          <a class="cat" href="/#cat" data-filter="剧集"><b>影视剧集</b><span>定档 / 番外 / 收官</span></a>
+          <a class="cat" href="/#cat" data-filter="综艺"><b>综艺竞演</b><span>赛制 / 退赛 / 补位</span></a>
+          <a class="cat" href="/#cat" data-filter="舞台"><b>舞台选秀</b><span>公演 / 投票 / 淘汰</span></a>
+          <a class="cat" href="/#cat" data-filter="商业"><b>品牌代言</b><span>签约 / 解约 / 短约</span></a>
+          <a class="cat" href="/#cat" data-filter="现场"><b>红毯造型</b><span>高定 / 首秀 / 配色</span></a>
+          <a class="cat" href="/#cat" data-filter="音乐"><b>音乐现场</b><span>巡演 / 加场 / 开票</span></a>
+          <a class="cat" href="/#cat" data-filter="海外"><b>海外娱乐</b><span>版权 / 引进 / 配音</span></a>
+          <a class="cat" href="/#cat" data-filter="辟谣"><b>辟谣专区</b><span>核查 / 判定 / 溯源</span></a>
+        </div>
+        <div class="filter-empty" id="filterEmpty">该分类下暂无展示条目，可切换其他分类或使用右上角搜索。</div>
+      </section>
+
+      <!-- 11 榜单 -->
+      <section class="sec" id="rank">
+        <div class="sec-head">
+          <h2>24 小时爆料热榜</h2>
+          <span class="sub">截至 11 月 25 日 09:00</span>
+        </div>
+        <ol class="rank">
+          <li><div><div class="rn">「双生舞台」退赛风波</div><div class="rs">综艺竞演 · 多方声明冲突</div></div><span class="rv">38.6万</span></li>
+          <li><div><div class="rn">《长夜将明》第 26 集剪辑争议</div><div class="rs">剧集 · 今晚主创直播</div></div><span class="rv">31.2万</span></li>
+          <li><div><div class="rn">《雾港来信》番外篇定档</div><div class="rs">剧集 · 12 月 6 日上线</div></div><span class="rv">27.9万</span></li>
+          <li><div><div class="rn">林知夏「沐野」短约到期</div><div class="rs">商业 · 代言页面下线</div></div><span class="rv">19.4万</span></li>
+          <li><div><div class="rn">星耀盛典红毯造型盘点</div><div class="rs">现场 · 41 组造型实录</div></div><span class="rv">16.8万</span></li>
+          <li><div><div class="rn">「回声计划」巡演加场</div><div class="rs">音乐 · 11 月 28 日开票</div></div><span class="rv">13.5万</span></li>
+          <li><div><div class="rn">“某顶流隐婚”传闻核查</div><div class="rs">辟谣 · 判定不实</div></div><span class="rv">11.7万</span></li>
+          <li><div><div class="rn">《风起南陌》配角定妆照</div><div class="rs">剧集 · 第二组物料</div></div><span class="rv">9.6万</span></li>
+          <li><div><div class="rn">《晚安，汉江》内地版权</div><div class="rs">海外 · 独播确认</div></div><span class="rv">8.3万</span></li>
+          <li><div><div class="rn">《雾港来信》大结局播放数据</div><div class="rs">剧集 · 24 小时 1.8 亿</div></div><span class="rv">7.1万</span></li>
+        </ol>
+      </section>
+
+      <!-- 5 深度解析 -->
+      <section class="sec deep" id="deep">
+        <div class="sec-head">
+          <h2>深度解析：一条爆料怎么判断真假</h2>
+          <span class="sub">约 850 字 · 阅读 4 分钟</span>
+        </div>
+
+        <h3><span class="num">1</span>先分清四类来源层级</h3>
+        <p>娱乐爆料的可靠性差异，首先来自来源层级，而不是来自传播量。层级大致可以这样排：官方公告（剧方、品牌、节目组、艺人工作室）＞ 平台物料（预告片、定妆照、直播预约）＞ 主流媒体采访 ＞ 匿名爆料账号。层级越靠前，越接近“事实陈述”；层级越靠后，越接近“信息碎片”。</p>
+        <p>但层级不是绝对。有些匿名爆料反而更早、更准，因为它来自剧组或品牌内部；有些官方公告则刻意模糊时间点，把责任推给“档期原因”。所以真正要看的，是这条爆料里有没有<strong>可被独立验证的要素</strong>。</p>
+        <ul>
+          <li><b>时间</b>：是否给出了具体日期、具体场次、具体直播时间。</li>
+          <li><b>主体</b>：是哪个剧组、哪个品牌、哪位艺人，是否指名。</li>
+          <li><b>动作</b>：定档、退赛、解约、加场，必须是可观察的行为。</li>
+          <li><b>后续</b>：有没有第二方回应，或者平台页面是否同步变化。</li>
+        </ul>
+
+        <h3><span class="num">2</span>交叉验证：三个页面胜过十条转发</h3>
+        <p>以 11 月 24 日的「双生舞台」退赛风波为例。节目组在 22:40 发布第三版说明，选手方在 40 分钟后回应“未收到书面通知”。这两份文本本身就是交叉验证的素材：时间点能不能对上、说明里有没有提到通知方式、选手方的声明有没有回避关键问题。</p>
+        <p>再往下查，可以看三个地方：节目官方账号的历史公告格式（是否一直用同一套措辞）、选手本人的行程（是否在退赛前已有其他安排）、赞助商物料（是否撤下了相关海报）。三处信息如果互相矛盾，这条爆料就还处在“未定”状态，不应该被当成结论传播。</p>
+        <div class="quote">判断标准很简单：如果一条爆料只能在一个账号上找到，且没有任何可查的页面变化，它最多算“传闻”，不能算“档案”。</div>
+
+        <h3><span class="num">3</span>作品线与人物线的判断差异</h3>
+        <p>作品线的爆料相对好判断，因为它最终会落到一个可验证的节点上：定档日期、上线平台、集数、番外篇长度。《雾港来信》番外篇的三集规格、12 月 6 日上线时间，都能在官方先导片和平台排播页面里对上，这类条目可以放心跟进。</p>
+        <p>人物线则复杂得多。合约、行程、社交平台发言，往往只有单方信息，且当事人有充分动机不公开。处理这类条目，建议采用“分级标注”而不是“一次性判真假”：已实锤、多方冲突、待确认、判定不实。吃瓜51全网第一 的档案里，每条人物线爆料都保留原始发布时间与后续更新记录，方便回看判断过程。</p>
+
+        <h3><span class="num">4</span>商业线的短约陷阱</h3>
+        <p>2026 年下半年起，品牌代言大量转向三个月短约。短约带来的直接后果是：到期不续约属于正常商业行为，但在传播中很容易被描述成“解约”“翻车”。林知夏与「沐野」的案例就是典型——品牌客服的说法是“合作正常结束”，代言人页面下线也只是合约到期的常规操作。</p>
+        <p>区分“到期”和“解约”，看三个信号：品牌是否发布告别海报、艺人是否删除相关合作内容、双方是否互相取关。三个信号同时出现，才更接近解约；只出现页面下线，通常只是合约周期结束。</p>
+
+        <h3><span class="num">5</span>什么时候应该停止跟进</h3>
+        <p>有三类爆料不值得继续投入时间：一是只有情绪、没有要素的爆料，通篇是“据说”“听说”“懂的都懂”；二是时间点已经过去两周以上、却没有任何后续动作的条目；三是明显带有商业目的的爆料，比如集中攻击某部待播剧，发布时间又恰好卡在竞品上线前后。</p>
+        <p>反过来，值得长期跟踪的条目通常有三个特征：有明确的下一个时间节点、有可对比的历史同类事件、有多方会在未来被迫回应。按这三条筛选，一天看十条爆料，能留下的通常不超过三条。</p>
+      </section>
+
+      <!-- 6 体验指南 -->
+      <section class="sec" id="guide">
+        <div class="sec-head">
+          <h2>吃瓜路径：先看什么，后看什么</h2>
+          <span class="sub">从入门到稳定跟进的四个阶段</span>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <b>先看热榜前五位</b>
+            <p>热榜前五通常覆盖当天最主要的三个事件。先建立“今天发生了什么”的框架，再决定要不要深入某一条，避免被零散爆料带着走。</p>
+          </div>
+          <div class="step">
+            <b>再读事件档案时间线</b>
+            <p>每条档案都有发布时间线。按时间顺序读一遍，比看十条转发更能看清矛盾点在哪里，尤其是多方声明的先后顺序。</p>
+          </div>
+          <div class="step">
+            <b>对照辟谣专区核查</b>
+            <p>涉及人物私生活的爆料，先去辟谣专区看有没有核查记录。已判定不实的条目不必再花时间，未核查的标记为待确认。</p>
+          </div>
+          <div class="step">
+            <b>最后看深度解析与评论</b>
+            <p>深度解析给判断方法，评论区给不同视角。两者结合，能避免只接受单一叙事，也更容易发现被忽略的细节。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="sec faq" id="faq">
+        <div class="sec-head">
+          <h2>关于娱乐爆料的常见问题</h2>
+          <span class="sub">6 个高频疑问</span>
+        </div>
+        <details open>
+          <summary>剧集番外篇一般多久更新一次？</summary>
+          <div class="ans">番外篇没有统一节奏。常见做法是正片收官后 2—4 周上线先导片，再隔 1—2 周放出正片。《雾港来信》属于先导片先行、正片 12 月 6 日一次性上线的类型；也有剧集选择每周一集、连更三周。判断更新时间，看平台排播页面比看爆料更准。</div>
+        </details>
+        <details>
+          <summary>「退赛」和「淘汰」在竞演类节目里有什么区别？</summary>
+          <div class="ans">淘汰是按赛制规则产生的结果，有投票或评审依据，通常会当场公布；退赛是选手主动或被动退出比赛，不一定经过赛制流程。两者的后续处理也不同：淘汰选手通常保留已录制的舞台，退赛选手的镜头可能被删减或重剪。这也是退赛类爆料容易引发争议的原因。</div>
+        </details>
+        <details>
+          <summary>第一次关注娱乐爆料，从哪类条目开始看比较好？</summary>
+          <div class="ans">建议从作品线开始，也就是定档、番外、加场、版权这类有明确节点的条目。它们的验证成本低，看官方公告和平台页面就能确认，适合先建立判断习惯。人物线和商业线信息更碎，等熟悉了来源层级之后再跟进会轻松很多。</div>
+        </details>
+        <details>
+          <summary>品牌代言到期不续约，算不算“解约”？</summary>
+          <div class="ans">不算。到期不续约是合约自然结束，解约是合约期内提前终止，两者在商业性质上完全不同。判断时可以看品牌是否发布告别内容、艺人是否删除合作物料、双方是否互相取关。只有多个信号同时出现，才更接近解约。</div>
+        </details>
+        <details>
+          <summary>红毯造型类的爆料，评判标准通常是什么？</summary>
+          <div class="ans">主要看三点：一是服装来源，高定、成衣、国内设计师首秀，含金量不同；二是造型完成度，包括妆发、配饰与整体配色是否统一；三是场合匹配度，盛典红毯和品牌活动的要求不一样。星耀盛典那 41 组造型里，讨论集中在配色，就是因为配色最容易在图片传播中被放大。</div>
+        </details>
+        <details>
+          <summary>海外剧集的内地版权消息，一般什么时候可以确认？</summary>
+          <div class="ans">通常分两步：先有平台招商或片单露出，再有版权方正式确认。前者只能算“有意向”，后者才算落定。《晚安，汉江》属于版权方在 11 月 18 日直接确认独播，这类消息可信度较高；如果只有平台片单截图，建议先标为待确认。</div>
+        </details>
+      </section>
+
+      <!-- 8 评论 -->
+      <section class="sec" id="comments">
+        <div class="sec-head">
+          <h2>瓜友评论</h2>
+          <span class="sub">16 条 · 来自档案条目下</span>
+        </div>
+        <div class="cmt-list">
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#ff8aa8">柚</span><span class="cmt-user">柚子汽水</span><span class="cmt-time">今天 09:20</span></div><p class="cmt-txt">《雾港来信》番外能拍到老周前史我是真没想到，先导片里那个码头镜头正片确实没有。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#ffc857">阿</span><span class="cmt-user">阿岚不熬夜</span><span class="cmt-time">今天 09:05</span></div><p class="cmt-txt">双生舞台这个说明改到第三版了，时间点还是对不上，等节目组放投票原始记录。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#57d8ff">南</span><span class="cmt-user">南陌旧事</span><span class="cmt-time">今天 08:52</span></div><p class="cmt-txt">长夜将明第 26 集我反复看了三遍，时间线确实有问题，但不像剪辑失误，更像补拍。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#4fd18b">陈</span><span class="cmt-user">陈小满</span><span class="cmt-time">今天 08:31</span></div><p class="cmt-txt">林知夏那个代言，客服都说正常结束了，别一口一个解约，短约到期很常见。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#ff8aa8">一</span><span class="cmt-user">一只瓜田猹</span><span class="cmt-time">昨天 23:47</span></div><p class="cmt-txt">星耀盛典那三组国内设计师首秀是真好看，配色比高定那几组还稳。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#ffc857">灯</span><span class="cmt-user">灯下看戏</span><span class="cmt-time">昨天 23:12</span></div><p class="cmt-txt">退赛风波里我更在意选手方的第二份声明，要求公开投票记录这一步挺关键。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#57d8ff">海</span><span class="cmt-user">海盐苏打</span><span class="cmt-time">昨天 22:38</span></div><p class="cmt-txt">回声计划加场三城，成都那场我蹲了，实名限购两张算是挡住黄牛了。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#4fd18b">木</span><span class="cmt-user">木木不追星</span><span class="cmt-time">昨天 21:55</span></div><p class="cmt-txt">隐婚那条一开始就觉得假，行程比对两处冲突，辟谣专区这次做得挺细。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#ff8aa8">七</span><span class="cmt-user">七号放映厅</span><span class="cmt-time">昨天 21:20</span></div><p class="cmt-txt">雾港来信大结局第 38 分钟弹幕峰值我信，那场戏确实全剧最好。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#ffc857">晚</span><span class="cmt-user">晚风告白</span><span class="cmt-time">11 月 24 日 20:41</span></div><p class="cmt-txt">长夜将明今晚直播我预约了，就想听剪辑指导自己解释时间线。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#57d8ff">青</span><span class="cmt-user">青柠气泡</span><span class="cmt-time">11 月 24 日 19:33</span></div><p class="cmt-txt">风起南陌第二组定妆照里那两个配角我认识，都是话剧出身的，稳。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#4fd18b">小</span><span class="cmt-user">小楼听雨</span><span class="cmt-time">11 月 24 日 18:06</span></div><p class="cmt-txt">晚安汉江内地版权落定挺好，但配音版和字幕版同时做，希望别赶工。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#ff8aa8">糖</span><span class="cmt-user">糖炒栗子</span><span class="cmt-time">11 月 24 日 16:52</span></div><p class="cmt-txt">红毯造型盘点里高定 17 组这个数据挺有参考价值，比单纯夸好看有用。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#ffc857">老</span><span class="cmt-user">老张看剧</span><span class="cmt-time">11 月 24 日 15:28</span></div><p class="cmt-txt">深度解析里到期和解约的区分说得很清楚，之前一直混着用。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#57d8ff">月</span><span class="cmt-user">月半弯</span><span class="cmt-time">11 月 24 日 13:14</span></div><p class="cmt-txt">热榜前五换得有点快，早上还是长夜将明第一，中午就变成双生舞台了。</p></div>
+          <div class="cmt"><div class="cmt-top"><span class="avatar" style="background:#4fd18b">温</span><span class="cmt-user">温酒煮瓜</span><span class="cmt-time">11 月 24 日 11:40</span></div><p class="cmt-txt">建议把“待确认”的条目标得更明显一点，有些爆料看着像实锤其实是传闻。</p></div>
+        </div>
+      </section>
+
+      <!-- 9 相关资讯 -->
+      <section class="sec" id="news">
+        <div class="sec-head">
+          <h2>相关资讯</h2>
+          <span class="sub">11 月 18 日—11 月 25 日</span>
+        </div>
+        <div class="news">
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/guagua-news01/600/400" width="600" height="400" alt="竞演节目赛制调整说明会" loading="lazy">
+            <div>
+              <div class="nt">2026-11-25</div>
+              <h3><a href="/#news">竞演类节目新增“投票原始记录”公开条款</a></h3>
+              <p>多档竞演节目在 11 月下旬更新参赛协议，要求中途退赛时公开投票记录，业内视为对近期争议的直接回应。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/guagua-news02/600/400" width="600" height="400" alt="长剧番外篇排播计划表" loading="lazy">
+            <div>
+              <div class="nt">2026-11-24</div>
+              <h3><a href="/#news">长剧番外篇成为收官后标配，12 月已有 5 部排播</a></h3>
+              <p>《雾港来信》之外，另有 4 部长剧确认 12 月上线番外篇，规格集中在 2—4 集，平台希望延长讨论周期。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/guagua-news03/600/400" width="600" height="400" alt="品牌短约签约现场" loading="lazy">
+            <div>
+              <div class="nt">2026-11-23</div>
+              <h3><a href="/#news">代言短约化加速，三个月合约占比升至四成</a></h3>
+              <p>多家品牌在 11 月调整代言策略，短约比例明显上升，随之而来的是“到期被误读为解约”的传播问题。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/guagua-news04/600/400" width="600" height="400" alt="红毯盛典现场全景" loading="lazy">
+            <div>
+              <div class="nt">2026-11-22</div>
+              <h3><a href="/#news">星耀盛典红毯：国内设计师首秀占三席</a></h3>
+              <p>41 组造型中，国内设计师作品首次以三席进入主红毯序列，配色与剪裁成为当晚讨论焦点。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/guagua-news05/600/400" width="600" height="400" alt="海外剧集版权签约画面" loading="lazy">
+            <div>
+              <div class="nt">2026-11-18</div>
+              <h3><a href="/#news">《晚安，汉江》内地独播权确认，双版本同步制作</a></h3>
+              <p>版权方确认由单一平台独播，配音版与字幕版同步推进，预计 2027 年 1 月上线，具体日期待排播。</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/guagua-news06/600/400" width="600" height="400" alt="音乐节巡演海报墙" loading="lazy">
+            <div>
+              <div class="nt">2026-11-21</div>
+              <h3><a href="/#news">「回声计划」加场三城，实名限购收紧至两张</a></h3>
+              <p>主办方追加成都、长沙、青岛三场，实名限购从四张收紧至两张，开票时间定在 11 月 28 日 12:00。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 10 相关推荐 -->
+      <section class="sec" id="reco">
+        <div class="sec-head">
+          <h2>相关推荐方向</h2>
+          <span class="sub">延伸阅读与追踪入口</span>
+        </div>
+        <div class="reco">
+          <a href="/#deep">爆料来源层级怎么分</a>
+          <a href="/#deep">短约代言与解约的区别</a>
+          <a href="/#cards">《雾港来信》番外篇排播</a>
+          <a href="/#faq">竞演节目退赛规则说明</a>
+          <a href="/#cat">辟谣专区核查记录</a>
+          <a href="/#rank">竞演类节目热榜追踪</a>
+          <a href="/#guide">红毯造型评判维度</a>
+          <a href="/#news">海外剧集版权引进动态</a>
+        </div>
+      </section>
+
+      <!-- 11 补充：时间线 -->
+      <section class="sec" id="timeline">
+        <div class="sec-head">
+          <h2>「双生舞台」事件时间线</h2>
+          <span class="sub">11 月 20 日—11 月 25 日</span>
+        </div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-time">11 月 20 日 21:30</div>
+            <b>节目播出第 9 期</b>
+            <p>选手完成公演，排名第三，现场未出现异常，赛后采访正常进行。</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">11 月 23 日 14:05</div>
+            <b>节目组发布第一版说明</b>
+            <p>称选手因“个人档期原因”退出后续录制，未提及伤病，也未说明投票处理方式。</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">11 月 23 日 19:48</div>
+            <b>选手方首次回应</b>
+            <p>声明称“未与节目组就退赛达成一致”，并要求公开第 9 期投票原始记录。</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">11 月 24 日 22:40</div>
+            <b>节目组发布第三版说明</b>
+            <p>改称选手因伤退赛，列出就医时间，但与选手方声明的通知时间存在两处冲突。</p>
+          </div>
+          <div class="tl-item">
+            <div class="tl-time">11 月 25 日 08:40</div>
+            <b>选手方发布第二份声明</b>
+            <p>再次要求公开投票记录，并称“至今未收到任何书面通知”，事件仍在发酵。</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- 右辅助栏 -->
+    <aside class="side" aria-label="辅助栏">
+      <div class="panel">
+        <h2>实时更新</h2>
+        <ul class="upd">
+          <li><span class="u-dot"></span><div class="u-txt"><b>雾港来信番外先导片</b><span>今天 09:12 · 新上线</span></div></li>
+          <li><span class="u-dot"></span><div class="u-txt"><b>双生舞台第二份声明</b><span>今天 08:40 · 持续发酵</span></div></li>
+          <li><span class="u-dot"></span><div class="u-txt"><b>热榜第 1 位更换</b><span>今天 08:05 · 榜单变动</span></div></li>
+          <li><span class="u-dot"></span><div class="u-txt"><b>长夜将明直播预约</b><span>昨天 22:40 · 今晚 20:00</span></div></li>
+          <li><span class="u-dot"></span><div class="u-txt"><b>林知夏代言页面下线</b><span>昨天 21:10 · 已核实</span></div></li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h2>高频搜索词</h2>
+        <div class="side-tags">
+          <a href="/#cards">雾港来信番外</a>
+          <a href="/#cards">双生舞台退赛</a>
+          <a href="/#cards">长夜将明剪辑</a>
+          <a href="/#cat">短约代言</a>
+          <a href="/#rank">竞演热榜</a>
+          <a href="/#cards">星耀盛典红毯</a>
+          <a href="/#cat">辟谣核查</a>
+          <a href="/#cards">回声计划加场</a>
+        </div>
+      </div>
+      <div class="panel">
+        <h2>档案说明</h2>
+        <p class="side-note">条目按事件类型归档，标注来源层级与核实状态。官方公告与平台物料类条目更新较快；匿名爆料类条目保留原始发布时间，便于回看判断过程。</p>
+      </div>
+    </aside>
+
+  </div>
+</div>
+
+<!-- 页尾 -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand">
+          <svg class="logo-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <path d="M20 3c9.4 0 17 7.2 17 16.2C37 29.6 29.4 37 20 37S3 29.6 3 19.2C3 10.2 10.6 3 20 3Z" stroke="#ff5c8a" stroke-width="2.4"/>
+            <path d="M13 15.5c1.6-1.4 3.4-1.4 5 0M22 15.5c1.6-1.4 3.4-1.4 5 0" stroke="#ffc857" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M13.5 24.5c2 2.2 4.4 3.3 6.5 3.3s4.5-1.1 6.5-3.3" stroke="#ff5c8a" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+          <span class="brand-txt"><span class="brand-name">吃瓜51全网第一</span></span>
+        </div>
+        <p>娱乐爆料档案聚合站，覆盖影视剧集、综艺竞演、舞台选秀、品牌代言、红毯造型与海外娱乐六个方向，按事件归档、标注核实状态。</p>
+      </div>
+      <div class="foot-col">
+        <h3>频道</h3>
+        <ul>
+          <li><a href="/#cat">影视剧集</a></li>
+          <li><a href="/#cat">综艺竞演</a></li>
+          <li><a href="/#cat">舞台选秀</a></li>
+          <li><a href="/#cat">品牌代言</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h3>栏目</h3>
+        <ul>
+          <li><a href="/#cards">精选爆料</a></li>
+          <li><a href="/#feed">最新动态</a></li>
+          <li><a href="/#rank">24 小时热榜</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h3>帮助</h3>
+        <ul>
+          <li><a href="/#guide">吃瓜路径</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#cat">辟谣专区</a></li>
+          <li><a href="/#comments">瓜友评论</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>站内条目为编辑整理与社区投稿汇总，热度、讨论量与核实率为示例数据，仅用于呈现档案维度，不构成对任何个人或机构的事实认定。</p>
+      <p>© 2026 吃瓜51全网第一 · 内容仅供娱乐参考</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  /* 搜索：定位到条目卡片与动态名称 */
+  var input = document.getElementById('siteSearch');
+  var btn = document.getElementById('searchBtn');
+  var cardsSection = document.getElementById('cards');
+
+  function runSearch(){
+    var q = (input.value || '').trim();
+    if(!q){ return; }
+    var targets = document.querySelectorAll('.card, .feed li, .news-item, .rank li');
+    var firstHit = null;
+    targets.forEach(function(el){
+      el.style.outline = '';
+      if(!firstHit && el.textContent.indexOf(q) !== -1){
+        firstHit = el;
+      }
+    });
+    if(firstHit){
+      firstHit.style.outline = '2px solid #ff5c8a';
+      firstHit.style.outlineOffset = '3px';
+      firstHit.scrollIntoView({behavior:'smooth', block:'center'});
+      setTimeout(function(){ firstHit.style.outline=''; }, 2600);
+    } else {
+      if(cardsSection){ cardsSection.scrollIntoView({behavior:'smooth', block:'start'}); }
+      alert('未找到与“' + q + '”相关的条目，可换用剧名、艺人名或事件关键词。');
+    }
+  }
+
+  btn.addEventListener('click', runSearch);
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); runSearch(); }
+  });
+
+  /* 分类筛选：按 data-filter 匹配卡片类型标签 */
+  var catGrid = document.getElementById('catGrid');
+  var empty = document.getElementById('filterEmpty');
+  var cats = catGrid.querySelectorAll('.cat');
+  var cards = document.querySelectorAll('#cards .card');
+
+  cats.forEach(function(cat){
+    cat.addEventListener('click', function(e){
+      e.preventDefault();
+      cats.forEach(function(c){ c.classList.remove('active'); });
+      cat.classList.add('active');
+
+      var f = cat.getAttribute('data-filter');
+      var shown = 0;
+      cards.forEach(function(card){
+        var type = card.querySelector('.card-type');
+        var tags = card.querySelectorAll('.tag');
+        var hay = (type ? type.textContent : '') + ' ' +
+                  Array.prototype.map.call(tags, function(t){ return t.textContent; }).join(' ');
+        if(f === 'all' || hay.indexOf(f) !== -1){
+          card.style.display = '';
+          shown++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+      empty.classList.toggle('show', shown === 0);
+    });
+  });
+})();
+</script>
+</body>
+  </html>
